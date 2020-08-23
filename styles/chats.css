@@ -1,0 +1,89 @@
+/* 채팅 리스트 */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.header__header-col a {
+  text-decoration: none;
+  color: #020202;
+}
+
+.header__header-col span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.header__icon i {
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+
+.chat__col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#chat__friend-status {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.chats__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.chats__list-link {
+  text-decoration: none;
+}
+
+.chat__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.chat__contents .chat__name {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+.chat__contents .chat__status {
+  display: block;
+  font-size: 12px;
+  color: #808080;
+}
+
+
+.chat__col .chat__timestamp {
+  font-size: 10px;
+  margin-bottom: 8px;
+  color: #808080;
+}
+
+.chat__col .chat__msg-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+  font-size: 10px;
+  color: #fff;
+}

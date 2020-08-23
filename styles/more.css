@@ -1,0 +1,30 @@
+#more__myinfos {
+  border: none;
+  padding-bottom: 0;
+}
+.more__mybtn {
+  position: absolute;
+  right: 20px;
+  padding: 5px 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.more__menuset {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menuset_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.menuset_wrapper i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.menuset_wrapper span {
+  font-size: 14px;
+}

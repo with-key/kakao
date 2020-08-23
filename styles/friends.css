@@ -1,0 +1,50 @@
+/* ######################################################### my infomation */
+.friends__myinfos {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+/* ######################################################### friends infomation */
+
+.friends__list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.friends__infos {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.friends__birthday {
+  display: flex;
+  align-items: center;
+  border: 2px solid yellowgreen;
+  border-radius: 15px;
+  padding: 5px 10px;
+  /* position: absolute; */
+  /* right: 20px; */
+  color: #222;
+  font-size: 1px;
+}
+
+.friends__birthday span {
+  margin-left: 5px;
+}
+
+.friends__birthday i {
+  color: crimson;
+}
+
+
+/* ##### slash screen */
+
+

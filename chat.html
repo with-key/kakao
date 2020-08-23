@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Kakao clone | V2</title>
+</head>
+
+<body>
+  <div class="phone">
+    <div class="screen" id="blue-screen">
+      <div id="no-mobile">
+        <i class="fas fa-arrow-circle-left"></i>
+        <span>줄여서 잠금해제</span>
+      </div>
+      <div class="notch"></div>
+      <div class="status-bar">
+        <div class="status-bar__time">
+          <span>11:07</span>
+        </div>
+        <div class="status-bar__status">
+          <i class="fas fa-signal"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <header class="chat__header">
+        <div class="header__lf-menu chat__header-menu">
+          <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+          <span class="chat__your-name">거루씨</span>
+        </div>
+        <div class="header__rt-menu chat__header-menu">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-bars"></i>
+        </div>
+      </header>
+
+      <main class="chat">
+        <div class="chat__msg">
+          <img src="img/friend.jpeg" class="avatar--sm">
+          <div class="chat__contents">
+            <span>거루씨</span>
+            <div class="contents__msg">
+              <div class="msg__msg">
+                Hey! 쿼카 뭐해!?
+              </div>
+              <span class="msg__time">오후 7:40</span>
+            </div>
+          </div>
+        </div>
+        <!-- me -->
+        <div class="chat__msg-me">
+          <div class="chat__contents-me">
+            <div class="contents__msg-me">
+              <div class="msg__msg-me">
+                나는 지금 코딩공부중이야!
+              </div>
+              <span class="msg__time">오후 7:41</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__input-wrapper">
+          <i class="fas fa-plus chat__plusbtn"></i>
+          <input type="text" class="chat__input">
+          <i class="far fa-smile chat__imobtn"></i>
+        </div>
+      </main>
+    </div> <!-- screen -->
+  </div> <!-- phone -->
+  <script src="https://kit.fontawesome.com/0e32175b73.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

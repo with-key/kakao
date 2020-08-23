@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Kakao clone | V2</title>
+</head>
+
+<body>
+  <div class="phone">
+    <div class="screen">
+      <div id="no-mobile">
+        <i class="fas fa-arrow-circle-left"></i>
+        <span>줄여서 잠금해제</span>
+      </div>
+      <div class="notch"></div>
+      <div class="status-bar">
+        <div class="status-bar__time">
+          <span>11:07</span>
+        </div>
+
+        <div class="status-bar__status">
+          <i class="fas fa-signal"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <header class="header">
+        <div class="header__header-col">
+          <span>채팅</span>
+        </div>
+        <div class="header__header-col">
+          <a href="#" class="header__icon"><i class="fas fa-search"></i></a>
+          <a href="#" class="header__icon"><i class="far fa-comment"></i></a>
+          <a href="#" class="header__icon"><i class="fas fa-music"></i></a>
+          <a href="setting.html" class="header__icon"><i class="fas fa-cog"></i></a>
+        </div>
+      </header>
+      <main class="chats">
+        <ul class="chats__lists">
+          <a href="chat.html" class="chats__list-link">
+            <li class="chats__list">
+              <div class="chat__col" id="chat__friend-status">
+                <img src="img/friend.jpeg" alt="" class="avatar--sm">
+                <div class="chat__contents">
+                  <span class="chat__name">거루씨</span>
+                  <span class="chat__status">나는 지금 코딩공부중이야!</span>
+                </div>
+              </div>
+              <div class="chat__col">
+                <span class="chat__timestamp">
+                  오후 10:15
+                </span>
+              </div>
+            </li>
+          </a>
+          <li class="chats__list">
+            <div class="chat__col" id="chat__friend-status">
+              <img src="img/king.png" alt="" class="avatar--sm">
+              <div class="chat__contents">
+                <span class="chat__name">버거킹</span>
+                <span class="chat__status">안녕, 나는 와퍼라고 해!</span>
+              </div>
+            </div>
+            <div class="chat__col">
+              <span class="chat__timestamp">
+                오후 3:15
+              </span>
+              <span class="chat__msg-count">
+                5
+              </span>
+            </div>
+          </li>
+          <li class="chats__list">
+            <div class="chat__col" id="chat__friend-status">
+              <img src="img/lotte.png" alt="" class="avatar--sm">
+              <div class="chat__contents">
+                <span class="chat__name">롯데리아</span>
+                <span class="chat__status">안녕, 나는 데리버거라고 해!</span>
+              </div>
+            </div>
+            <div class="chat__col">
+              <span class="chat__timestamp">
+                오후 5:15
+              </span>
+              <span class="chat__msg-count">
+                9
+              </span>
+            </div>
+          </li>
+        </ul>
+      </main>
+      <nav class="nav">
+        <div class="nav__menu">
+          <a href="index.html"><i class="far fa-user"></i></a>
+          <a href="chats.html">
+            <i class="fas fa-comment" id="nav__comment-icon">
+              <div class="comment-icon__batch">14</div>
+            </i></a>
+          <a href="#"><i class="fas fa-hashtag"></i></a>
+          <a href="more.html"><i class="fas fa-ellipsis-h"></i></a>
+        </div>
+        <div class="nav__touch-bar"></div>
+      </nav>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/0e32175b73.js" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>

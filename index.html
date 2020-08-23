@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Kakao clone | V2</title>
+</head>
+
+<body>
+  <div class="phone">
+    <div class="screen">
+      <div id="no-mobile">
+        <i class="fas fa-arrow-circle-left"></i>
+        <span>줄여서 잠금해제</span>
+      </div>
+      <div class="notch"></div>
+      <div class="status-bar">
+        <div class="status-bar__time">
+          <span>11:07</span>
+        </div>
+
+        <div class="status-bar__status">
+          <i class="fas fa-signal"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <header class="header">
+        <div class="header__header-col">
+          <span>친구</span>
+        </div>
+        <div class="header__header-col">
+          <a href="#" class="header__icon"><i class="fas fa-search"></i></a>
+          <a href="#" class="header__icon"><i class="far fa-comment"></i></a>
+          <a href="#" class="header__icon"><i class="fas fa-music"></i></a>
+          <a href="setting.html" class="header__icon"><i class="fas fa-cog"></i></a>
+        </div>
+      </header>
+      <main class="friends">
+        <ul class="friends__myinfos">
+          <img src="img/me.png" alt="" class="avatar--lg">
+          <div class="myinfos__name name--lg">WithYe</div>
+        </ul>
+        <ul class="friends__lists">
+          <li class="friends__list">
+            <img src="img/friend.jpeg" alt="" class="avatar--sm">
+            <div class="friends__infos">
+              <span class="infos__name name--sm">거루씨</span>
+              <span class="status--sm">나는 거루!</span>
+            </div>
+          </li>
+          <li class="friends__list">
+            <img src="img/mac.png" alt="" class="avatar--sm">
+            <div class="friends__infos">
+              <span class="infos__name name--sm">맥도날드</span>
+              <span class="status--sm">빅맥이 짱이야!</span>
+            </div>
+          </li>
+          <li class="friends__list">
+            <img src="img/lotte.png" alt="" class="avatar--sm">
+            <div class="friends__infos">
+              <span class="infos__name name--sm">롯데리아</span>
+              <span class="status--sm">무슨 소리!, 데리버거 짱!</span>
+            </div>
+            <div class="friends__birthday">
+              <i class="fas fa-birthday-cake"></i>
+              <span>12.25</span>
+            </div>
+          </li>
+          <li class="friends__list">
+            <img src="img/king.png" alt="" class="avatar--sm">
+            <div class="friends__infos">
+              <span class="infos__name name--sm">버거킹</span>
+              <span class="status--sm">쯧쯧..</span>
+            </div>
+          </li>
+        </ul>
+      </main>
+
+      <nav class="nav">
+        <div class="nav__menu">
+          <a href="index.html"><i class="fas fa-user"></i></a>
+          <a href="chats.html">
+            <i class="far fa-comment" id="nav__comment-icon">
+              <div class="comment-icon__batch">14</div>
+            </i></a>
+          <a href="#"><i class="fas fa-hashtag"></i></a>
+          <a href="more.html"><i class="fas fa-ellipsis-h"></i></a>
+        </div>
+        <div class="nav__touch-bar"></div>
+      </nav>
+      <div id="splash-screen">
+        <i class="fas fa-comment"></i>
+      </div>
+    </div> <!-- screen -->
+  </div> <!-- phone -->
+  <script src="https://kit.fontawesome.com/0e32175b73.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
